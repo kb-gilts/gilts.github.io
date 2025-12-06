@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)),url(2.jpg);
+           text-align: center;
+           background-size: cover;
+        }
+        input{
+            height:20px;
+            width:62%
+        }
+        h1{
+            color: orange;
+           margin-top:100px
+        }
+        .form{
+            margin-top:0px;
+            color:green;
+            border:5px outset green;
+            box-shadow: solid 0 0 10px rgba(0, 0, 0, 0.73);
+            background-color: aquamarine;
+            border-radius: 10px;
+            width: 60%;
+            margin-left: 20%;
+            padding: 25px;
+
+        }
+        label{
+            font-size:20px;
+            font-weight:bold;
+        }
+        button {
+            background: Orange;
+            border-radius:5%;
+            margin-top:10px;
+            margin-bottom:10px;
+            font-size:20px;
+            color: green;
+        } 
+        hr{
+            background: orange;
+            height:5px;
+        }
+        a{
+            color:orange;
+            font-size:20px;
+            text-decoration:none;
+            margin-top:30px
+        }
+        a:hover{
+            color:red;
+        }
+        Marquee {
+            color: orange;
+            font-size:20px;
+            margin-bottom:30px
+        }
+        input{
+            border-radius:100px;
+        }
+    </style>
+</head>
+<body>
+     <h1>CONTACT ME</h1>
+    <div class="form">
+       <form action="mailto:bukenyag41@gmail.com" method="post">
+        <label for="name">Name</label><br>
+        <input type="text" placeholder="Enter name" required><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" placeholder="Enter email" required><br><br>
+        <label for="message">Message</label><br>
+       <textarea id="message" name="message" rows="5" cols="30" placeholder="Enter your message here..." required></textarea><br>
+
+        <input style="background:#ccffcc; border-radius:5%; margin-top:20px; margin-bottom:10px; font-size:20px; padding-bottom:25px" type="submit" value="send a message">
+        </form>
+    </div>
+    <hr>
+    <marquee>message me for more info</marquee>
+    <a href="gilts.html">⬅back to home</a>
+</body>
+</html>
